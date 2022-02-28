@@ -11,17 +11,28 @@
 <body class="bg-gray-800 w-full p-12 lg:px-24">
 
 <header class="py-4">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 xl:flex xl:items-center xl:justify-between">
+    <div class=" mx-auto  xl:flex xl:items-center xl:justify-between">
         <div class="flex-1 min-w-0">
-            <a href="index.html">
-                <svg class="w-6 h-6 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                     xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                          d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
-                </svg>
-            </a>
-            <h1 class="my-4 text-4xl font-extrabold leading-7 text-gray-200  sm:text-3xl sm:truncate">Ukraine
-                Conflict</h1>
+            <div class="flex">
+                <a href="index.html">
+                    <svg class="w-6 h-6 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                              d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
+                    </svg>
+                </a>
+                <div class="flex justify-between w-full">
+
+                <p class="text-gray-400 ml-2">How to help</p>
+                <div class="rounded flex bg-rose-200/50 text-gray-900 p-2">
+                    <svg class="mr-1 w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+                    This page is in edit mode. Please help
+                    <a class="underline ml-1" href="mailto:hi@helpgenie.org?subject=Suggestions for Page 'Helping the people of Ukraine'">improve the content</a></div>
+                </div>
+                </div>
+
+            </div>
+            <h1 class="my-4 text-4xl font-extrabold  text-gray-200  sm:text-3xl">The people of Ukraine</h1>
             <div class="mt-1 flex flex-col sm:flex-row sm:flex-wrap sm:mt-0 sm:space-x-8">
                 <div class="mt-2 flex items-center text-sm text-gray-500">
                     <svg class="flex-shrink-0 mr-1.5 h-5 w-5 text-gray-400" fill="none" stroke="currentColor"
@@ -47,8 +58,8 @@
 </header>
 
 <main class="pb-16">
-    <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-        <div class="px-4 sm:px-0">
+    <div class="mx-auto">
+        <div class="">
             <!-- Tabs -->
             <div class="overflow-scroll">
                 <div class="border-b border-gray-200">
@@ -89,7 +100,12 @@
                 About.
             </h2>
             <p class="text-gray-400">A brief overview of this issue.</p>
-            <p class="text-xl mt-2 text-gray-900">The story</p>
+            <p class="text-xl mt-2 text-gray-900">On Thursday, Feb. 24, 2022, troops from Russia crossed the border and
+                launched an attack on Ukraine’s
+                North, South, and East regions. The situation is quickly unfolding, with attacks on Ukraine having taken
+                place continuously throughout the past few days, threatening the safety of millions of people in
+                the country. In response, citizens around the world have shown their solidarity with Ukraine in various
+                ways. </p>
         </div>
 
         <div id="stake" class="p-8 bg-gray-200  text-gray-700 rounded-md shadow-md my-4">
@@ -98,58 +114,441 @@
             </h2>
             <p class="text-gray-400">Why this issue is important.</p>
 
-            <p class="text-xl mt-2 text-gray-900">The story</p>
+            <p class="text-xl mt-2 text-gray-900">Aggression will continue to result in violence, as hundreds of
+                thousands of people
+                are being displaced while others continue to fight for their rights of sovereignty.</p>
         </div>
         <div id="help" class="p-8 bg-gray-200 text-gray-700 rounded-md shadow-md my-4">
             <div class="flex justify-between">
                 <h2 class="text-xl font-extrabold sm:text-2xl sm:tracking-tight lg:text-3xl">
                     How to help.
                 </h2>
-                <a href="https://forms.gle/ggBmw6VhzUogkx4B7" target="_blank" class=" rounded shadow self-center p-1 px-2 text-xs font-bold tracking-tight cursor-pointer hover:bg-gray-600 text-gray-400 hover:text-gray-300">Add Solution</a>
+                <a href="https://forms.gle/ggBmw6VhzUogkx4B7" target="_blank"
+                   class=" rounded shadow self-center p-1 px-2 flex items-center text-xs font-bold tracking-tight cursor-pointer hover:bg-gray-600 text-gray-400 hover:text-gray-300">Add
+                    <svg class="ml-1 w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                              d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                    </svg>
+                </a>
+
             </div>
 
             <p class="text-gray-400">Some of the ways you can help.</p>
             <div class="flex">
-                <h3 class="font-medium text-gray-700">Filter:</h3>
+                <h3 class="text-gray-500">Filter:</h3>
                 <div class="ml-2 flex-shrink-0 ">
-                    <p data-filter='full-time'
+                    <p data-filter='donation'
                        class="cursor-pointer px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
-                        Full-time</p>
+                        Donation</p>
+                </div>
+                <div class="ml-2 flex-shrink-0 ">
+                    <p data-filter='protest'
+                       class="cursor-pointer px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-blue-100 text-blue-800">
+                        Protest</p>
                 </div>
             </div>
             <!-- This example requires Tailwind CSS v2.0+ -->
             <div class="bg-gray-50 shadow overflow-hidden rounded-md my-4">
                 <ul role="list" class="divide-y divide-gray-200">
 
-                    <li data-filter-by='full-time'>
-                        <a href="#" class="block hover:bg-gray-50">
+                    <li data-filter-by='donation'>
+                        <a href="https://www.peopleinneed.net" target="_blank" class="block hover:bg-gray-50">
                             <div class="px-4 py-4 sm:px-6">
-                                <div class="flex items-center justify-between">
+                                <div class="grid items-center justify-between">
                                     <div>
-                                        <p class="text-sm font-medium text-indigo-600 truncate">Front End Developer</p>
-                                        <p class="truncate text-gray-600 text-xs">About</p>
+                                        <p class="text-lg font-semibold text-indigo-600">People In Need</p>
+                                        <p class=" text-gray-600 text-xs">Providing humanitarian aid to over 200,000
+                                            people on the ground. For those most in need, they provide food packages,
+                                            emergency shelter, safe access to drinking water, hygiene items, and coal
+                                            for heating.</p>
                                     </div>
-                                    <div data-filter='full-time' class="ml-2 flex-shrink-0 flex">
-                                        <p class="active px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
-                                            Full-time</p>
+                                    <div class=" overflow-scroll mt-2">
+                                        <div data-filter='donation' class="mr-2 flex-shrink-0 flex">
+                                            <p class="active px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
+                                                Donation</p>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="mt-2 sm:flex sm:justify-between">
+                                <div class="mt-2 sm:flex sm:justify-between text-xs">
                                     <div class="sm:flex">
-                                        <p class="flex items-center text-sm text-gray-500">
+                                        <p class="flex items-center text-gray-500">
                                             <svg class="flex-shrink-0 mr-1.5 h-5 w-5 text-gray-400" fill="none"
                                                  stroke="currentColor" viewBox="0 0 24 24"
                                                  xmlns="http://www.w3.org/2000/svg">
                                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                                       d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
                                             </svg>
-                                            www.help.com
+                                            https://www.peopleinneed.net
                                         </p>
                                     </div>
-                                    <div class="mt-2 flex items-center text-sm text-gray-500 sm:mt-0">
+                                    <div class="mt-2 flex items-center text-xs text-gray-500 sm:mt-0">
                                         <p>
                                             Posted on
-                                            <time datetime="2020-01-07">January 7, 2020</time>
+                                            <time datetime="2020-01-07">February 28, 2022</time>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li data-filter-by='donation'>
+                        <a href="https://novaukraine.org" target="_blank" class="block hover:bg-gray-50">
+                            <div class="px-4 py-4 sm:px-6">
+                                <div class="grid items-center justify-between">
+                                    <div>
+                                        <p class="text-lg font-semibold text-indigo-600">Nova Ukraine</p>
+                                        <p class=" text-gray-600 text-xs">A Ukraine-based nonprofit, provides citizens
+                                            with everything from baby food and hygiene products, to clothes and
+                                            household supplies.</p>
+                                    </div>
+                                    <div class=" overflow-scroll mt-2">
+                                        <div data-filter='donation' class="mr-2 flex-shrink-0 flex">
+                                            <p class="active px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
+                                                Donation</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mt-2 sm:flex sm:justify-between text-xs">
+                                    <div class="sm:flex">
+                                        <p class="flex items-center text-gray-500">
+                                            <svg class="flex-shrink-0 mr-1.5 h-5 w-5 text-gray-400" fill="none"
+                                                 stroke="currentColor" viewBox="0 0 24 24"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                                            </svg>
+                                            https://novaukraine.org
+                                        </p>
+                                    </div>
+                                    <div class="mt-2 flex items-center text-xs text-gray-500 sm:mt-0">
+                                        <p>
+                                            Posted on
+                                            <time datetime="2020-01-07">February 28, 2022</time>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li data-filter-by='donation'>
+                        <a href="https://redcross.org.ua/en/donate/" target="_blank" class="block hover:bg-gray-50">
+                            <div class="px-4 py-4 sm:px-6">
+                                <div class="grid items-center justify-between">
+                                    <div>
+                                        <p class="text-lg font-semibold text-indigo-600">The Ukrainian Red Cross</p>
+                                        <p class=" text-gray-600 text-xs"></p>
+                                    </div>
+                                    <div class=" overflow-scroll mt-2">
+                                        <div data-filter='donation' class="mr-2 flex-shrink-0 flex">
+                                            <p class="active px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
+                                                Donation</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mt-2 sm:flex sm:justify-between text-xs">
+                                    <div class="sm:flex">
+                                        <p class="flex items-center text-gray-500">
+                                            <svg class="flex-shrink-0 mr-1.5 h-5 w-5 text-gray-400" fill="none"
+                                                 stroke="currentColor" viewBox="0 0 24 24"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                                            </svg>
+                                            https://redcross.org.ua/en/donate/
+                                        </p>
+                                    </div>
+                                    <div class="mt-2 flex items-center text-xs text-gray-500 sm:mt-0">
+                                        <p>
+                                            Posted on
+                                            <time datetime="2020-01-07">February 28, 2022</time>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li data-filter-by='donation'>
+                        <a href="https://internationalmedicalcorps.org" target="_blank" class="block hover:bg-gray-50">
+                            <div class="px-4 py-4 sm:px-6">
+                                <div class="grid items-center justify-between">
+                                    <div>
+                                        <p class="text-lg font-semibold text-indigo-600">International Medical Corps</p>
+                                        <p class=" text-gray-600 text-xs">On the front lines and prepared to help
+                                            citizens with emergency health care services, as well as mental health and
+                                            psychosocial support. The agency is also keeping the pandemic top of mind
+                                            throughout the crisis by priotitizing COVID-19 awareness and prevention
+                                            services, to help keep displaced citizens safe from the pandemic.</p>
+                                    </div>
+                                    <div class=" overflow-scroll mt-2">
+                                        <div data-filter='donation' class="mr-2 flex-shrink-0 flex">
+                                            <p class="active px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
+                                                Donation</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mt-2 sm:flex sm:justify-between text-xs">
+                                    <div class="sm:flex">
+                                        <p class="flex items-center text-gray-500">
+                                            <svg class="flex-shrink-0 mr-1.5 h-5 w-5 text-gray-400" fill="none"
+                                                 stroke="currentColor" viewBox="0 0 24 24"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                                            </svg>
+                                            https://internationalmedicalcorps.org
+                                        </p>
+                                    </div>
+                                    <div class="mt-2 flex items-center text-xs text-gray-500 sm:mt-0">
+                                        <p>
+                                            Posted on
+                                            <time datetime="2020-01-07">February 28, 2022</time>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li data-filter-by='donation'>
+                        <a href="https://www.care.org" target="_blank" class="block hover:bg-gray-50">
+                            <div class="px-4 py-4 sm:px-6">
+                                <div class="grid items-center justify-between">
+                                    <div>
+                                        <p class="text-lg font-semibold text-indigo-600">CARE International</p>
+                                        <p class=" text-gray-600 text-xs">Responding to the crisis by providing
+                                            Ukrainians in need with food, hygiene kits, psychosocial support services,
+                                            access to water, and access to cash.</p>
+                                    </div>
+                                    <div class=" overflow-scroll mt-2">
+                                        <div data-filter='donation' class="mr-2 flex-shrink-0 flex">
+                                            <p class="active px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
+                                                Donation</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mt-2 sm:flex sm:justify-between text-xs">
+                                    <div class="sm:flex">
+                                        <p class="flex items-center text-gray-500">
+                                            <svg class="flex-shrink-0 mr-1.5 h-5 w-5 text-gray-400" fill="none"
+                                                 stroke="currentColor" viewBox="0 0 24 24"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                                            </svg>
+                                            https://www.care.org
+                                        </p>
+                                    </div>
+                                    <div class="mt-2 flex items-center text-xs text-gray-500 sm:mt-0">
+                                        <p>
+                                            Posted on
+                                            <time datetime="2020-01-07">February 28, 2022</time>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li data-filter-by='donation'>
+                        <a href="https://www.unicef.org/ukraine/en/" target="_blank" class="block hover:bg-gray-50">
+                            <div class="px-4 py-4 sm:px-6">
+                                <div class="grid items-center justify-between">
+                                    <div>
+                                        <p class="text-lg font-semibold text-indigo-600">UNICEF Ukraine</p>
+                                        <p class=" text-gray-600 text-xs">Repairing schools damaged by the bombings and
+                                            providing an emergency response to children affected by the conflict.</p>
+                                    </div>
+                                    <div class=" overflow-scroll mt-2">
+                                        <div data-filter='donation' class="mr-2 flex-shrink-0 flex">
+                                            <p class="active px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
+                                                Donation</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mt-2 sm:flex sm:justify-between text-xs">
+                                    <div class="sm:flex">
+                                        <p class="flex items-center text-gray-500">
+                                            <svg class="flex-shrink-0 mr-1.5 h-5 w-5 text-gray-400" fill="none"
+                                                 stroke="currentColor" viewBox="0 0 24 24"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                                            </svg>
+                                            https://www.unicef.org/ukraine/en/
+                                        </p>
+                                    </div>
+                                    <div class="mt-2 flex items-center text-xs text-gray-500 sm:mt-0">
+                                        <p>
+                                            Posted on
+                                            <time datetime="2020-01-07">February 28, 2022</time>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li data-filter-by='donation'>
+                        <a href="https://kyivindependent.com/" target="_blank" class="block hover:bg-gray-50">
+                            <div class="px-4 py-4 sm:px-6">
+                                <div class="grid items-center justify-between">
+                                    <div>
+                                        <p class="text-lg font-semibold text-indigo-600">The Kyiv Independent</p>
+                                        <p class=" text-gray-600 text-xs">Describes itself as “created by journalists
+                                            who were fired from the Kyiv Post for defending editorial independence.” You
+                                            can help keep the curtains up for the independent Ukrainian English-language
+                                            media outlet by donating to its Patreon or GoFundMe fundraiser.</p>
+                                    </div>
+                                    <div class=" overflow-scroll mt-2">
+                                        <div data-filter='donation' class="mr-2 flex-shrink-0 flex">
+                                            <p class="active px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
+                                                Donation</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mt-2 sm:flex sm:justify-between text-xs">
+                                    <div class="sm:flex">
+                                        <p class="flex items-center text-gray-500">
+                                            <svg class="flex-shrink-0 mr-1.5 h-5 w-5 text-gray-400" fill="none"
+                                                 stroke="currentColor" viewBox="0 0 24 24"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                                            </svg>
+                                            https://kyivindependent.com/
+                                        </p>
+                                    </div>
+                                    <div class="mt-2 flex items-center text-xs text-gray-500 sm:mt-0">
+                                        <p>
+                                            Posted on
+                                            <time datetime="2020-01-07">February 28, 2022</time>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li data-filter-by='donation'>
+                        <a href="https://ukraineworld.org/" target="_blank" class="block hover:bg-gray-50">
+                            <div class="px-4 py-4 sm:px-6">
+                                <div class="grid items-center justify-between">
+                                    <div>
+                                        <p class="text-lg font-semibold text-indigo-600">Ukraine World</p>
+                                        <p class=" text-gray-600 text-xs">An independent English-language multimedia
+                                            project that emerged from a volunteer initiative helping international
+                                            journalists during the 2014 “Revolution of Dignity.” Support it by donating
+                                            to its Patreon.</p>
+                                    </div>
+                                    <div class=" overflow-scroll mt-2">
+                                        <div data-filter='donation' class="mr-2 flex-shrink-0 flex">
+                                            <p class="active px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
+                                                Donation</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mt-2 sm:flex sm:justify-between text-xs">
+                                    <div class="sm:flex">
+                                        <p class="flex items-center text-gray-500">
+                                            <svg class="flex-shrink-0 mr-1.5 h-5 w-5 text-gray-400" fill="none"
+                                                 stroke="currentColor" viewBox="0 0 24 24"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                                            </svg>
+                                            https://ukraineworld.org/
+                                        </p>
+                                    </div>
+                                    <div class="mt-2 flex items-center text-xs text-gray-500 sm:mt-0">
+                                        <p>
+                                            Posted on
+                                            <time datetime="2020-01-07">February 28, 2022</time>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li data-filter-by='donation'>
+                        <a href="https://donate.unhcr.org/int/en" target="_blank" class="block hover:bg-gray-50">
+                            <div class="px-4 py-4 sm:px-6">
+                                <div class="grid items-center justify-between">
+                                    <div>
+                                        <p class="text-lg font-semibold text-indigo-600">Supporting Refugees</p>
+                                        <p class=" text-gray-600 text-xs">For many Ukrainians, the threat of full-scale
+                                            war is driving them to seek safety in neighboring countries.
+                                            In a statement, Filippo Grandi, the UN High Commissioner for Refugees, said:
+                                            “We have already seen reports of casualties and people starting to flee
+                                            their homes to seek safety.”
+                                            Accordingly, the United Nations refugee agency (UNHCR) has stepped up its
+                                            operations and is working with governments in neighboring countries "calling
+                                            on them to keep borders open to those seeking safety and protection.”
+                                            Germany has already offered Poland help with refugees.
+                                            You can help support refugees by donating.</p>
+                                    </div>
+                                    <div class=" overflow-scroll mt-2">
+                                        <div data-filter='donation' class="mr-2 flex-shrink-0 flex">
+                                            <p class="active px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
+                                                Donation</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mt-2 sm:flex sm:justify-between text-xs">
+                                    <div class="sm:flex">
+                                        <p class="flex items-center text-gray-500">
+                                            <svg class="flex-shrink-0 mr-1.5 h-5 w-5 text-gray-400" fill="none"
+                                                 stroke="currentColor" viewBox="0 0 24 24"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                                            </svg>
+                                            https://ukraineworld.org/
+                                        </p>
+                                    </div>
+                                    <div class="mt-2 flex items-center text-xs text-gray-500 sm:mt-0">
+                                        <p>
+                                            Posted on
+                                            <time datetime="2020-01-07">February 28, 2022</time>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li data-filter-by='protest'>
+                        <a href="https://standwithukraine.live/peace-protests/" target="_blank"
+                           class="block hover:bg-gray-50">
+                            <div class="px-4 py-4 sm:px-6">
+                                <div class="grid items-center justify-between">
+                                    <div>
+                                        <p class="text-lg font-semibold text-indigo-600">Join A Peace Protest</p>
+                                        <p class=" text-gray-600 text-xs">If you’re following and keeping up to date
+                                            with the ongoing situation on the ground, but you’re still wanting to do
+                                            more and/or you don’t have the financial means to donate, consider joining
+                                            demonstrators around the world — from London to Tokyo — who have taken to
+                                            the streets to protest Russia’s invasion of Ukraine. Find your nearest
+                                            demonstration here. </p>
+                                    </div>
+                                    <div class=" overflow-scroll mt-2">
+                                        <div data-filter='protest' class="mr-2 flex-shrink-0 flex">
+                                            <p class="active px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-blue-100 text-blue-800">
+                                                Protest</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mt-2 sm:flex sm:justify-between text-xs">
+                                    <div class="sm:flex">
+                                        <p class="flex items-center text-gray-500">
+                                            <svg class="flex-shrink-0 mr-1.5 h-5 w-5 text-gray-400" fill="none"
+                                                 stroke="currentColor" viewBox="0 0 24 24"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                                            </svg>
+                                            https://standwithukraine.live/peace-protests/
+                                        </p>
+                                    </div>
+                                    <div class="mt-2 flex items-center text-xs text-gray-500 sm:mt-0">
+                                        <p>
+                                            Posted on
+                                            <time datetime="2020-01-07">February 28, 2022</time>
                                         </p>
                                     </div>
                                 </div>
@@ -160,23 +559,64 @@
             </div>
 
         </div>
-        <div id="understand" class="p-8 bg-gray-200  text-gray-700 rounded-md shadow-md my-4">
-            <h2 class="text-xl font-extrabold  sm:text-2xl sm:tracking-tight lg:text-3xl">
-                Understand.
-            </h2>
-            <p class="text-gray-400">Dive deeper into the nuances of this issue.</p>
-            <p class="text-xl mt-2 text-gray-900">The story</p>
-        </div>
+        <!--        If you're reading this and would like to contribute to this section please send an email to hi@helpgenie.org-->
+        <!--        <div id="understand" class="p-8 bg-gray-200  text-gray-700 rounded-md shadow-md my-4">-->
+        <!--            <h2 class="text-xl font-extrabold  sm:text-2xl sm:tracking-tight lg:text-3xl">-->
+        <!--                Understand.-->
+        <!--            </h2>-->
+        <!--            <p class="text-gray-400">Dive deeper into the nuances of this issue.</p>-->
+        <!--            <p class="text-xl mt-2 text-gray-900">The story</p>-->
+        <!--        </div>-->
         <div id="informed" class="p-8 bg-gray-200 text-gray-700 rounded-md shadow-md my-4">
             <h2 class="text-xl font-extrabold  sm:text-2xl sm:tracking-tight lg:text-3xl">
                 Stay Informed.
             </h2>
             <p class="text-gray-400">Resources to learn more and stay informed.</p>
-            <p class="text-xl mt-2 text-gray-900">The story</p>
+            <p class="text-xl mt-2 text-gray-900">
+                <a href="https://www.bbc.com/news/world-europe-56720589" class="text-blue-800 underline">Why is Russia
+                    invading Ukraine and what does
+                    Putin want? - BBC</a>
+            </p>
+
+            <p class="text-xl mt-2 text-gray-900">
+                <a href="https://twitter.com/kyivindependent" class="text-blue-800 underline">The Kyiv Independent -
+                    Twitter</a>
+            </p>
+            <p>The Kyiv Independent has been a leading voice on the front lines, covering a timeline of ongoing events
+                since the beginning and highlighting those who have been most affected by the violent attack. The
+                English-language outlet is continuously reporting on how the invasion and conflict are impacting
+                citizens, the economy, as well as Ukrainian foreign politics.</p>
+
+            <p class="text-xl mt-2 text-gray-900">
+                <a href="https://english.nv.ua/" class="text-blue-800 underline">The New Voice of Ukraine - Website</a>
+            </p>
+            <p>Covering news in three different languages — English, Ukrainian, and Russian — the New Voice of Ukraine
+                has not only covered breaking news, but has released informative analyses on the situation that detail
+                how the situation led to this point, and is continuously publishing op-eds by Ukranian scholars and
+                experts that help to give a view of tone of the situation. </p>
+
+            <p class="text-xl mt-2 text-gray-900">
+                <a href="https://www.instagram.com/withukraine/" class="text-blue-800 underline">Stand With Ukraine -
+                    Instagram</a>
+            </p>
+            <p>Uploading concise, yet well-informed Instagram posts and stories, Stand With Ukraine is a community page
+                that has been dedicated to sharing knowledge wrap-ups based on the ongoing situation, as well as ways
+                that followers can support citizens from wherever they are.</p>
+            <p class="text-xl mt-2 text-gray-900">
+                <a href="https://www.instagram.com/svidomi_eng/" class="text-blue-800 underline">Svidomi -
+                    Instagram</a>
+            </p>
+            <p>Get updates on the ongoing conflict as they happen from this Instagram account — the English version of a
+                Ukrainian social media-based media outlet — which is sharing brief, yet frequent posts about exactly
+                what is happening on the front lines, and who is being most impacted. </p>
         </div>
     </div>
 </main>
 </div>
+
+<div class="text-gray-400 mx-auto w-full text-left flex justify-between">
+    <a href="mailto:hi@helpgenie.org">hi@helpgenie.org</a>
+    <a href="mailto:hi@helpgenie.org?subject=Suggestions for Page 'Helping the people of Ukraine'">Help improve this page</a></div>
 <script>
     const filters = document.querySelectorAll("[data-filter]");
     const light = document.getElementById("light");
