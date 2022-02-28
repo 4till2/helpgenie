@@ -1,0 +1,6 @@
+exclude:
+  - db
+  - dev
+  - bin
+  - node_modules
+  - CNAME
