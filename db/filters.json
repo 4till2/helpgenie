@@ -1,0 +1,12 @@
+{
+  "donation": {
+    "name": "Donation",
+    "key": "donation",
+    "color": "green"
+  },
+  "protest": {
+    "name": "Protest",
+    "key": "protest",
+    "color": "blue"
+  }
+}

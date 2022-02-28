@@ -1,0 +1,68 @@
+[
+  {
+    "title": "Donate to Ukrainian Army",
+    "description": "Donate directly to the Ukrainian Army fund via your bank account.",
+    "href": "https://bank.gov.ua/en/news/all/natsionalniy-bank-vidkriv-spetsrahunok-dlya-zboru-koshtiv-na-potrebi-armiyi",
+    "filter": "donation"
+  },
+  {
+    "title": "People In Need",
+    "description": "Providing humanitarian aid to over 200,000 people on the ground. For those most in need, they provide food packages, emergency shelter, safe access to drinking water, hygiene items, and coal for heating.",
+    "href": "https://www.peopleinneed.net",
+    "filter": "donation"
+  },
+  {
+    "title": "Nova Ukraine",
+    "description": "A Ukraine-based nonprofit, provides citizens with everything from baby food and hygiene products, to clothes and household supplies.",
+    "href": "https://novaukraine.org",
+    "filter": "donation"
+  },
+  {
+    "title": "The Ukrainian Red Cross",
+    "description": "Donate directly to the Ukrainian Army fund via your bank account.",
+    "href": "https://redcross.org.ua/en/donate/",
+    "filter": "donation"
+  },
+  {
+    "title": "International Medical Corps",
+    "description": "On the front lines and prepared to help citizens with emergency health care services, as well as mental health and psychosocial support. The agency is also keeping the pandemic top of mind throughout the crisis by priotitizing COVID-19 awareness and prevention services, to help keep displaced citizens safe from the pandemic.",
+    "href": "https://internationalmedicalcorps.org",
+    "filter": "donation"
+  },
+  {
+    "title": "CARE International",
+    "description": "Responding to the crisis by providing Ukrainians in need with food, hygiene kits, psychosocial support services, access to water, and access to cash.",
+    "href": "https://www.care.org",
+    "filter": "donation"
+  },
+  {
+    "title": "UNICEF Ukraine",
+    "description": "Repairing schools damaged by the bombings and providing an emergency response to children affected by the conflict.",
+    "href": "https://www.unicef.org/ukraine/en/",
+    "filter": "donation"
+  },
+  {
+    "title": "The Kyiv Independent",
+    "description": "Describes itself as “created by journalists who were fired from the Kyiv Post for defending editorial independence.” You can help keep the curtains up for the independent Ukrainian English-language media outlet by donating to its Patreon or GoFundMe fundraiser.",
+    "href": "https://kyivindependent.com/",
+    "filter": "donation"
+  },
+  {
+    "title": "Ukraine World",
+    "description": "An independent English-language multimedia project that emerged from div volunteer initiative helping international journalists during the 2014 “Revolution of Dignity.” Support it by donating to its Patreon.",
+    "href": "https://ukraineworld.org/",
+    "filter": "donation"
+  },
+  {
+    "title": "Supporting Refugees",
+    "description": "For many Ukrainians, the threat of full-scale war is driving them to seek safety in neighboring countries. In div statement, Filippo Grandi, the UN High Commissioner for Refugees, said: “We have already seen reports of casualties and people starting to flee their homes to seek safety.” Accordingly, the United Nations refugee agency (UNHCR) has stepped up its operations and is working with governments in neighboring countries \"calling on them to keep borders open to those seeking safety and protection.” Germany has already offered Poland help with refugees. You can help support refugees by donating.",
+    "href": "https://donate.unhcr.org/int/en/general",
+    "filter": "donation"
+  },
+  {
+    "title": "Join A Peace Protest",
+    "description": "If you’re following and keeping up to date with the ongoing situation on the ground, but you’re still wanting to do more and/or you don’t have the financial means to donate, consider joining demonstrators around the world — from London to Tokyo — who have taken to the streets to protest Russia’s invasion of Ukraine. Find your nearest demonstration here.",
+    "href": "https://standwithukraine.live/peace-protests/",
+    "filter": "protest"
+  }
+]
