@@ -1,0 +1,205 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="output.css" rel="stylesheet">
+</head>
+<body class="bg-gray-800 w-full p-12 lg:px-24">
+
+<header class="py-4">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 xl:flex xl:items-center xl:justify-between">
+        <div class="flex-1 min-w-0">
+            <a href="index.html">
+                <svg class="w-6 h-6 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                          d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
+                </svg>
+            </a>
+            <h1 class="my-4 text-4xl font-extrabold leading-7 text-gray-200  sm:text-3xl sm:truncate">Ukraine
+                Conflict</h1>
+            <div class="mt-1 flex flex-col sm:flex-row sm:flex-wrap sm:mt-0 sm:space-x-8">
+                <div class="mt-2 flex items-center text-sm text-gray-500">
+                    <svg class="flex-shrink-0 mr-1.5 h-5 w-5 text-gray-400" fill="none" stroke="currentColor"
+                         viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                              d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                    </svg>
+                    Current
+                </div>
+                <div class="mt-2 flex items-center text-sm text-gray-500">
+                    <!-- Heroicon name: solid/location-marker -->
+                    <svg class="flex-shrink-0 mr-1.5 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg"
+                         viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <path fill-rule="evenodd"
+                              d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"
+                              clip-rule="evenodd"/>
+                    </svg>
+                    Ukraine
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main class="pb-16">
+    <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
+        <div class="px-4 sm:px-0">
+            <!-- Tabs -->
+            <div class="overflow-scroll">
+                <div class="border-b border-gray-200">
+                    <nav class="mt-2 -mb-px flex space-x-8" aria-label="Tabs">
+                        <!-- Current: "border-purple-500 text-purple-600", Default: "border-transparent text-gray-500 hover:text-gray-200 hover:border-gray-200" -->
+                        <a href="#about"
+                           class="border-transparent text-gray-500 hover:text-gray-200 hover:border-gray-200 whitespace-nowrap py-4 px-1 border-b-2 font-medium text-sm">
+                            About
+
+                        </a>
+
+                        <a href="#stake"
+                           class="border-transparent text-gray-500 hover:text-gray-200 hover:border-gray-200 whitespace-nowrap py-4 px-1 border-b-2 font-medium text-sm">
+                            Whats at Stake
+                        </a>
+
+                        <a href="#help"
+                           class="border-transparent text-gray-500 hover:text-gray-200 hover:border-gray-200 whitespace-nowrap py-4 px-1 border-b-2 font-medium text-sm">
+                            How to Help
+
+                            <!--                            <span class="bg-purple-100 text-purple-600 hidden ml-2 py-0.5 px-2.5 rounded-full text-xs font-medium md:inline-block">6</span>-->
+                        </a>
+
+                        <a href="#understand"
+                           class="border-transparent text-gray-500 hover:text-gray-200 hover:border-gray-200 whitespace-nowrap py-4 px-1 border-b-2 font-medium text-sm">
+                            Understand </a>
+
+                        <a href="#informed"
+                           class="border-transparent text-gray-500 hover:text-gray-200 hover:border-gray-200 whitespace-nowrap py-4 px-1 border-b-2 font-medium text-sm">
+                            Stay Informed </a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <div id="about" class="p-8 bg-gray-200  text-gray-700 rounded-md shadow-md my-4">
+            <h2 class="text-xl font-extrabold  sm:text-2xl sm:tracking-tight lg:text-3xl">
+                About.
+            </h2>
+            <p class="text-gray-400">A brief overview of this issue.</p>
+            <p class="text-xl mt-2 text-gray-900">The story</p>
+        </div>
+
+        <div id="stake" class="p-8 bg-gray-200  text-gray-700 rounded-md shadow-md my-4">
+            <h2 class="text-xl font-extrabold  sm:text-2xl sm:tracking-tight lg:text-3xl">
+                Whats at stake?
+            </h2>
+            <p class="text-gray-400">Why this issue is important.</p>
+
+            <p class="text-xl mt-2 text-gray-900">The story</p>
+        </div>
+        <div id="help" class="p-8 bg-gray-200 text-gray-700 rounded-md shadow-md my-4">
+            <div class="flex justify-between">
+                <h2 class="text-xl font-extrabold sm:text-2xl sm:tracking-tight lg:text-3xl">
+                    How to help.
+                </h2>
+                <a href="" class=" rounded shadow self-center p-1 px-2 text-xs font-bold tracking-tight cursor-pointer hover:bg-gray-600 text-gray-400 hover:text-gray-300">Add Solution</a>
+            </div>
+
+            <p class="text-gray-400">Some of the ways you can help.</p>
+            <div class="flex">
+                <h3 class="font-medium text-gray-700">Filter:</h3>
+                <div class="ml-2 flex-shrink-0 ">
+                    <p data-filter='full-time'
+                       class="cursor-pointer px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
+                        Full-time</p>
+                </div>
+            </div>
+            <!-- This example requires Tailwind CSS v2.0+ -->
+            <div class="bg-gray-50 shadow overflow-hidden rounded-md my-4">
+                <ul role="list" class="divide-y divide-gray-200">
+
+                    <li data-filter-by='full-time'>
+                        <a href="#" class="block hover:bg-gray-50">
+                            <div class="px-4 py-4 sm:px-6">
+                                <div class="flex items-center justify-between">
+                                    <div>
+                                        <p class="text-sm font-medium text-indigo-600 truncate">Front End Developer</p>
+                                        <p class="truncate text-gray-600 text-xs">About</p>
+                                    </div>
+                                    <div data-filter='full-time' class="ml-2 flex-shrink-0 flex">
+                                        <p class="active px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
+                                            Full-time</p>
+                                    </div>
+                                </div>
+                                <div class="mt-2 sm:flex sm:justify-between">
+                                    <div class="sm:flex">
+                                        <p class="flex items-center text-sm text-gray-500">
+                                            <svg class="flex-shrink-0 mr-1.5 h-5 w-5 text-gray-400" fill="none"
+                                                 stroke="currentColor" viewBox="0 0 24 24"
+                                                 xmlns="http://www.w3.org/2000/svg">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                                            </svg>
+                                            www.help.com
+                                        </p>
+                                    </div>
+                                    <div class="mt-2 flex items-center text-sm text-gray-500 sm:mt-0">
+                                        <p>
+                                            Posted on
+                                            <time datetime="2020-01-07">January 7, 2020</time>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <div id="understand" class="p-8 bg-gray-200  text-gray-700 rounded-md shadow-md my-4">
+            <h2 class="text-xl font-extrabold  sm:text-2xl sm:tracking-tight lg:text-3xl">
+                Understand.
+            </h2>
+            <p class="text-gray-400">Dive deeper into the nuances of this issue.</p>
+            <p class="text-xl mt-2 text-gray-900">The story</p>
+        </div>
+        <div id="informed" class="p-8 bg-gray-200 text-gray-700 rounded-md shadow-md my-4">
+            <h2 class="text-xl font-extrabold  sm:text-2xl sm:tracking-tight lg:text-3xl">
+                Stay Informed.
+            </h2>
+            <p class="text-gray-400">Resources to learn more and stay informed.</p>
+            <p class="text-xl mt-2 text-gray-900">The story</p>
+        </div>
+    </div>
+</main>
+</div>
+<script>
+    const filters = document.querySelectorAll("[data-filter]");
+    const light = document.getElementById("light");
+    const dark = document.getElementById("dark");
+
+    filters.forEach((el) => {
+        el.addEventListener("click", (event) => {
+            toggleFilter(event.target)
+        })
+    })
+
+    const toggleFilter = (e) => {
+        let filter = e.getAttribute('data-filter')
+        let filterables = document.querySelectorAll(`[data-filter-by="${filter}"]`)
+        let filters = document.querySelectorAll(`[data-filter="${filter}"]`)
+        console.log(filter)
+
+        filterables.forEach((f) => {
+            console.log(f)
+
+            f.classList.toggle("hidden")
+        });
+        filters.forEach((f) => {
+            f.classList.toggle("opacity-50")
+        });
+    }
+</script>
+</body>
+</html>
