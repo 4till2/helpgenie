@@ -3,8 +3,8 @@ import {filter, resource, solution} from './templates.mjs'
 
 import cheerio from 'cheerio'
 
-const PAGE_TEMPLATE = './dev/issue_template.html'
-const PAGE_OUTPUT = '../ukraine.html'
+const PAGE_TEMPLATE = './dev/issue_page_template.html'
+const PAGE_OUTPUT = './src/ukraine.html'
 const FILTERS_ID = 'filters'
 const SOLUTIONS_ID = 'solutions'
 const RESOURCES_ID = 'resources'
