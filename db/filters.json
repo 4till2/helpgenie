@@ -1,12 +1,22 @@
 {
   "donation": {
-    "name": "Donation",
+    "title": "Donation",
     "key": "donation",
     "color": "green"
   },
   "protest": {
-    "name": "Protest",
+    "title": "Protest",
     "key": "protest",
     "color": "blue"
+  },
+  "activism": {
+    "title": "Activism",
+    "key": "activism",
+    "color": "indigo"
+  },
+  "aid": {
+    "title": "Aid",
+    "key": "aid",
+    "color": "orange"
   }
 }

@@ -55,8 +55,14 @@
   },
   {
     "title": "Supporting Refugees",
-    "description": "For many Ukrainians, the threat of full-scale war is driving them to seek safety in neighboring countries. In div statement, Filippo Grandi, the UN High Commissioner for Refugees, said: “We have already seen reports of casualties and people starting to flee their homes to seek safety.” Accordingly, the United Nations refugee agency (UNHCR) has stepped up its operations and is working with governments in neighboring countries \"calling on them to keep borders open to those seeking safety and protection.” Germany has already offered Poland help with refugees. You can help support refugees by donating.",
+    "description": "For many Ukrainians, the threat of full-scale war is driving them to seek safety in neighboring countries. In div statement, Filippo Grandi, the UN High Commissioner for Refugees, said: “We have already seen reports of casualties and people starting to flee their homes to seek safety.” Accordingly, the United Nations refugee agency (UNHCR) has stepped up its operations and is working with governments in neighboring countries \"calling on them to keep borders open to those seeking safety and protection.\" Germany has already offered Poland help with refugees. You can help support refugees by donating.",
     "href": "https://donate.unhcr.org/int/en/general",
+    "filter": "donation"
+  },
+  {
+    "title": "Donate to the Military",
+    "description": "Help Ukraine in the war with Russia by supporting the military through the special account set up by the Ukrainian MonoBank",
+    "href": "https://uahelp.monobank.ua",
     "filter": "donation"
   },
   {
@@ -64,5 +70,125 @@
     "description": "If you’re following and keeping up to date with the ongoing situation on the ground, but you’re still wanting to do more and/or you don’t have the financial means to donate, consider joining demonstrators around the world — from London to Tokyo — who have taken to the streets to protest Russia’s invasion of Ukraine. Find your nearest demonstration here.",
     "href": "https://standwithukraine.live/peace-protests/",
     "filter": "protest"
+  },
+  {
+    "title": "Donate for Army Supplies",
+    "description": "The Charitable Organization “Charitable Foundation ”PHOENIX WINGS” provides the Ukrainian army with the necessary assistance in regards to the appropriate equipment & uniform, personal non-lethal protection (vests, helmets), required treatment of the wounded soldiers and acquisition the personal first aid kits, and repair of the buildings used by the army.",
+    "href": "http://wings-phoenix.org.ua/en/about-fund/",
+    "filter": "donation"
+  },
+  {
+    "title": "Support The Territorial Defence Forces",
+    "description": "Our task is to supply the reservists - our fellow citizens who left their households and joined the Territorial Defense Forces to defend our country. In this way, we will be able to defend ourselves and defeat the occupant with minimal casualties!",
+    "href": "https://warm.if.ua/uk/projects/support_for_the_territorial_defense_forces",
+    "filter": "protest"
+  },
+  {
+    "title": "Write to Congress",
+    "description": "Something everyone can do to support Ukraine right now – write to your representatives in Congress, call and write to the White House, and speak with your elected officials about supporting Ukraine.",
+    "href": "https://stopwarinukraine.com/support-ukraine-write-to-your-reps-in-congress/?fbclid=IwAR0J79XGdNif4b8TellmbBDpTASSvlccH2WDQa5dy9BLPW-0j6X9X5mMn8U",
+    "filter": "activism"
+  },
+  {
+    "title": "Medical Aid and Financial Relief",
+    "description": "In light of recent developments on Ukrainian border and escalating Russian threats to invade Ukraine, United Help Ukraine (UHU) is working to provide life-saving individual first aid kits (IFAKs containing blood-stopping bandages and tourniquets) and other emergency medical supplies to the front lines.",
+    "href": "https://www.facebook.com/donate/337101825010055/",
+    "filter": "donation"
+  },
+  {
+    "title": "Sunflower For Peace",
+    "description": "Sunflower of Peace has officially started a fundraiser to prepare first aid medical tactical backpacks for paramedics and doctors on the front lines. Each backpack is designed for groups of 5 to 10 people and includes a variety of first aid supplies: bandages, anti hemorrhagic medicine like Quikclot and Celox, medical instruments, and a means for survival in extreme conditions.",
+    "href": "https://www.facebook.com/donate/507886070680475/",
+    "filter": "donation"
+  },
+  {
+    "title": "Revived Soldiers Ukraine",
+    "description": "Revived Soldiers Ukraine (RSU) is a non-profit organization dedicated to providing aid to the people of Ukraine so that they may fulfill fundamental rights and freedoms such as right to life, right to appropriate and affordable medical care, freedom of belief and freedom for an adequate standard of living.",
+    "href": "https://www.rsukraine.org",
+    "filter": "donation"
+  },
+  {
+    "title": "Hospitallers",
+    "description": "The medical battalion \"Hospitalieri\" is not funded by the state and carries out its service on the front line at the expense of the donations of ordinary Ukrainians, caring people from abroad, volunteers and patrons.",
+    "href": "https://www.facebook.com/hospitallers/posts/2953630548255167",
+    "filter": "donation"
+  },
+  {
+    "title": "Ukraine Suicide Prevention",
+    "description": "Lifeline Ukraine is a national, professional, suicide prevention and mental health support hotline, operating 24 hours a day, 7 days a week. Ukraine too often loses veterans to suicide, and this problem needed to be addressed, Lifeline Ukraine was established to provide help for veterans and their family members first and foremost.",
+    "href": "https://lifelineukraine.com/en/donation",
+    "filter": "donation"
+  },
+  {
+    "title": "Red Cross Red Crescent",
+    "description": "People in Ukraine need help now. All funds will be used to help those in need, affected by armed conflict, blood collection, mobilization of volunteers and resources, and emergency activities.",
+    "href": "https://donate.redcrossredcrescent.org/ua/donate/~my-donation?_cv=1",
+    "filter": "donation"
+  },
+  {
+    "title": "Send Goods",
+    "description": "On this website one can find out how to provide humanitarian assistance to the people of Ukraine. Ukrainian businessmen have opened a warehouse to which you can send any cargo that will help people.",
+    "href": "http://helpukraine.center/en",
+    "filter": "aid"
+  },
+  {
+    "title": "Voices of Children",
+    "description": "No child may be left alone with war trauma. With your help, we give psychological and psychosocial support to children who suffered as a result of war operations. It helps them to win the consequences of the war and develop themselves. We also help families to cope with everyday difficulties, treatment and rehabilitation of children, giving an individual support.",
+    "href": "https://voices.org.ua/en/who-we-are/",
+    "filter": "donation"
+  },
+  {
+    "title": "Emergency Aid For Ukraine",
+    "description": "An independent German-Swiss non-governmental organisation dedicated to the protection of human rights in Belarus and Ukraine.",
+    "href": "https://www.lphr.org/en/",
+    "filter": "donation"
+  },
+  {
+    "title": "Global Support Fund",
+    "description": "The Embassy of Ukraine in the UK set up a special fund to provide humanitarian assistance to the victims of Russian war against Ukraine.",
+    "href": "https://www.withukraine.org",
+    "filter": "donation"
+  },
+  {
+    "title": "Crypto For Ukraine",
+    "description": "Unchain is a charity project created by blockchain activists to support people in Ukraine during this crisis time. Your support helps us raise and quickly distribute money for humanitarian needs. So that the people of Ukraine could get help where they need it the most.",
+    "href": "https://unchain.fund",
+    "filter": "donation"
+  },
+  {
+    "title": "Humanitarian Help Master List",
+    "description": "A list of ways to help by sending goods in need. THere are addresses throughout the world as well as a list of items needed.",
+    "href": "https://how-to-help-ukraine-now.super.site/humanitarian-help",
+    "filter": "aid"
+  },
+  {
+    "title": "Find a protest",
+    "description": "Upcoming rallies throughout the world.",
+    "href": "https://www.stopputin.net",
+    "filter": "protest"
+  },
+  {
+    "title": "Download Protest Posters - 1",
+    "description": "Find and print posters for rallying.",
+    "href": "https://drive.google.com/drive/folders/1rTWEuGi8iabrAycm1hB_yr4KYjgP-wEU",
+    "filter": "protest"
+  },
+  {
+    "title": "Download Protest Posters - 2",
+    "description": "Find and print posters for rallying.",
+    "href": "https://drive.google.com/drive/folders/1s6YnSEFfmWprZgqJ1IMsd4t3UmWr73Rb?fbclid=IwAR3n4YLLTtUEScjNBAFF0v3EvxVwL1M-TTSIXRNDDs2g0ShUjYaPgM17GB8",
+    "filter": "protest"
+  },
+  {
+    "title": "Download Protest Posters - 3",
+    "description": "Find and print posters for rallying.",
+    "href": "https://drive.google.com/drive/folders/1_BqBiqT_Noy05iMayjFFkVyiguZjWHOl",
+    "filter": "protest"
+  },
+  {
+    "title": "Resources for Refugees",
+    "description": "Host Ukrainians and Help Locally",
+    "href": "https://how-to-help-ukraine-now.super.site/refuge-for-ukrainians",
+    "filter": "aid"
   }
 ]

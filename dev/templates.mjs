@@ -8,7 +8,7 @@ const filters = JSON.parse(
 export const solution =
     (o) => {
         return `
-            <li data-filter-by='${filters[o.filter].key}'>
+            <li data-filter-by='${filters[o.filter]?.key}'>
                 <a href="${o.href}" target="_blank" class="block hover:bg-gray-50">
                     <div class="px-4 py-4 sm:px-6">
                         <div class="grid items-center justify-between">
@@ -19,7 +19,7 @@ export const solution =
                             <div class=" overflow-scroll mt-2">
                                 <div data-filter='${filters[o.filter].key}' class="mr-2 flex-shrink-0 flex">
                                     <p class="active px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-${filters[o.filter].color}-100 text-green-800">
-                                        ${filters[o.filter].name}</p>
+                                        ${filters[o.filter].title}</p>
                                 </div>
                             </div>
                         </div>
@@ -56,8 +56,8 @@ export const solution =
 `
     }
 
-const tag = (name) => {
-    return `<div class='p-1 px-2 mr-2 rounded-lg bg-gray-300 text-gray-900 font-light'>${name}</div>`
+const tag = (title) => {
+    return `<div class='p-1 px-2 mr-2 rounded-lg bg-gray-300 text-gray-900 font-light'>${title}</div>`
 
 }
 export const resource =
@@ -80,6 +80,6 @@ export const filter =
     <div class="ml-2 flex-shrink-0 ">
         <p data-filter='${key}'
            class="cursor-pointer px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-${filters[key].color}-100 text-${filters[key].color}-800">
-            ${filters[key].name}</p>
+            ${filters[key].title}</p>
     </div>`
     }

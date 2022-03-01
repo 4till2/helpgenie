@@ -40,11 +40,140 @@
     ]
   },
   {
+    "title": "President of Ukraine - Website",
+    "href": "https://www.president.gov.ua/",
+    "description": "",
+    "tags": [
+      "website, official, updates"
+    ]
+  },
+  {
+    "title": "President of Ukraine - Twitter",
+    "href": "https://twitter.com/ZelenskyyUa",
+    "description": "",
+    "tags": [
+      "twitter, official, updates"
+    ]
+  },
+  {
+    "title": "President of Ukraine - Facebook",
+    "href": " https://www.facebook.com/zelenskiy.official",
+    "description": "",
+    "tags": [
+      "facebook, official, updates"
+    ]
+  },{
+    "title": "Ministry of Foreign Affairs of Ukraine - Website",
+    "href": "https://mfa.gov.ua/",
+    "description": "",
+    "tags": [
+      "website, official, updates"
+    ]
+  },{
+    "title": "Ministry of Foreign Affairs of Ukraine - Twitter",
+    "href": "https://twitter.com/MFA_Ukraine",
+    "description": "",
+    "tags": [
+      "twitter, official, updates"
+    ]
+  },{
+    "title": "Ministry of Foreign Affairs of Ukraine - Facebook",
+    "href": "https://www.facebook.com/UkraineMFA",
+    "description": "",
+    "tags": [
+      "facebook, official, updates"
+    ]
+  },{
+    "title": "Official account of the Parliament of Ukraine - Telegram",
+    "href": "https://t.me/verkhovnaradaofukraine",
+    "description": "",
+    "tags": [
+      "telegram, official, updates"
+    ]
+  },{
+    "title": "Official account of the Parliament of Ukraine - Twitter",
+    "href": "https://twitter.com/ua_parliament ",
+    "description": "",
+    "tags": [
+      "twitter, official, updates"
+    ]
+  },{
+    "title": "Ukraine’s official social media accounts - Facebook",
+    "href": "https://www.facebook.com/UkraineUA.MFA",
+    "description": "",
+    "tags": [
+      "facebook, official, updates"
+    ]
+  },{
+    "title": "Ukraine’s official social media accounts - Instagram",
+    "href": "https://www.instagram.com/ukraine.ua/",
+    "description": "",
+    "tags": [
+      "instagram, official, updates"
+    ]
+  },
+  {
     "title": "Svidomi - Instagram",
     "href": "https://www.instagram.com/svidomi_eng/",
     "description": "Get updates on the ongoing conflict as they happen from this Instagram account — the English version of a Ukrainian social media-based media outlet — which is sharing brief, yet frequent posts about exactly what is happening on the front lines, and who is being most impacted.",
     "tags": [
       "instagram, stories, updates"
+    ]
+  },
+  {
+    "title": "Svidomi - Instagram",
+    "href": "https://www.instagram.com/svidomi_eng/",
+    "description": "Get updates on the ongoing conflict as they happen from this Instagram account — the English version of a Ukrainian social media-based media outlet — which is sharing brief, yet frequent posts about exactly what is happening on the front lines, and who is being most impacted.",
+    "tags": [
+      "instagram, stories, updates"
+    ]
+  },
+  {
+    "title": "Svidomi - Instagram",
+    "href": "https://www.instagram.com/svidomi_eng/",
+    "description": "Get updates on the ongoing conflict as they happen from this Instagram account — the English version of a Ukrainian social media-based media outlet — which is sharing brief, yet frequent posts about exactly what is happening on the front lines, and who is being most impacted.",
+    "tags": [
+      "instagram , stories , updates"
+    ]
+  },
+  {
+    "title": "Svidomi - Instagram",
+    "href": "https://www.instagram.com/svidomi_eng/",
+    "description": "Get updates on the ongoing conflict as they happen from this Instagram account — the English version of a Ukrainian social media-based media outlet — which is sharing brief, yet frequent posts about exactly what is happening on the front lines, and who is being most impacted.",
+    "tags": [
+      "instagram , stories , updates"
+    ]
+  },
+  {
+    "title": "2022 Ukraine Crisis Twitter List",
+    "href": "https://twitter.com/i/lists/1494877848087187461",
+    "description": "Reporters, diplomats, heads of state and analysts tweeting on the Ukraine crisis.",
+    "tags": [
+      "twitter"
+    ]
+  },
+  {
+    "title": "WithUkraine 24/7 - Twitter",
+    "href": "https://twitter.com/With__Ukraine",
+    "description": "Updates from trusted sources.",
+    "tags": [
+      "twitter"
+    ]
+  },
+  {
+    "title": "WithUkraine 24/7 - Telegram",
+    "href": "https://t.me/with_ukraine",
+    "description": "Updates from trusted sources.",
+    "tags": [
+      "telegram"
+    ]
+  },
+  {
+    "title": "Minister of Foreign Affairs - Twitter",
+    "href": "https://twitter.com/DmytroKuleba",
+    "description": "The official account of Ukraine's Minister of Foreign Affairs",
+    "tags": [
+      "twitter , official"
     ]
   }
 ]

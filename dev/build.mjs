@@ -28,8 +28,8 @@ const resources = JSON.parse(
 const buildSolutions =
     () => {
         let res =
-            solutions.map(sol => {
-                return solution(sol)
+            solutions.sort((a, b) => sortByTitle(a, b)).map(sol => {
+                return solution(sol) || null
             })
         return res
     }
@@ -37,7 +37,7 @@ const buildSolutions =
 const buildResources =
     () => {
         let res =
-            resources.map(rec => {
+            resources.sort((a, b) => sortByTitle(a, b)).map(rec => {
                 return resource(rec)
             })
         return res
@@ -51,6 +51,19 @@ const buildFilters =
         }
         return res
     }
+
+const sortByTitle = (a, b) => {
+    let fa = a.title.toLowerCase(),
+        fb = b.title.toLowerCase();
+
+    if (fa < fb) {
+        return -1;
+    }
+    if (fa > fb) {
+        return 1;
+    }
+    return 0;
+}
 
 const write = async (filters, resources, solutions) => {
     let xmlString = await readFile(PAGE_TEMPLATE, 'utf8')

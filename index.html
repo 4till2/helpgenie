@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,7 +26,7 @@
         <h2 class="text-xl font-bold items-center justify-center text-gray-400 sm:text-2xl sm:tracking-tight lg:text-3xl mb-5">
             How to help...</h2>
         <a href="ukraine.html"
-           class="flex p-8 bg-gray-100 cursor-pointer hover:bg-gray-400 text-gray-400 hover:text-gray-100 rounded-md shadow-md">
+           class="ring-2 ring-slate-200 flex p-8 bg-gray-100 cursor-pointer hover:bg-gray-400 text-gray-400 hover:text-gray-100 rounded-md shadow-md">
             <h2 class="text-4xl font-extrabold  sm:text-4xl sm:tracking-tight lg:text-6xl">
                 The people of Ukraine
             </h2>
@@ -35,30 +35,34 @@
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="4"
                       d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
             </svg>
-
         </a>
     </div>
 </div>
 <div class="flex items-center">
-    <a href="https://forms.gle/ePqLHstkcRXQ44sR8" target="_blank" class="bg-gray-800">
-        <h2 class="text-sm font-bold sm:text-lg sm:tracking-tight mb-5 p-4 mt-5 bg-gray-700 cursor-pointer hover:bg-gray-600 text-gray-400 hover:text-gray-300 rounded-md shadow-md">
-            Add Another
-        </h2>
+    <a href="https://forms.gle/ePqLHstkcRXQ44sR8" target="_blank"
+       class="text-sm font-bold sm:text-lg sm:tracking-tight mb-5 p-4 mt-5 bg-gray-700 cursor-pointer hover:bg-gray-600 text-gray-400 hover:text-gray-300 rounded-md shadow-md">
+        Suggest Issue
     </a>
 </div>
 <!-- Begin Mailchimp Signup Form -->
 <div id="mc_embed_signup"
-     class="text-sm font-bold sm:text-lg sm:tracking-tight mb-5 mt-5 text-gray-400 rounded-md shadow-md">
+     class="text-sm font-bold sm:text-lg sm:tracking-tight mb-5 mt-5 text-gray-400 rounded-md">
     <form action="https://helpgenie.us14.list-manage.com/subscribe/post?u=6b73b0edf56093b6617736c72&amp;id=8a183a6670"
           method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
           target="_blank" novalidate>
         <div id="mc_embed_signup_scroll">
             <h2 class="">Stay Informed</h2>
-            <div class="flex">
+            <div class="flex my-1">
                 <input type="email" value="" placeholder="Email Address" name="EMAIL"
-                       class="required email rounded-md p-2 text-gray-900 bg-gray-300 focus:ring-0 focus:border-none"
+                       class="required email rounded-md p-2 text-gray-900 bg-gray-400 placeholder:text-gray-900 focus:ring-0 focus:border-none"
                        id="mce-EMAIL">
-                <input type="submit" value="Subscribe" name="subscribe" class="button cursor-pointer p-2 hover:text-gray-100">
+                <div class="relative cursor-pointer p-2 w-10 hover:text-gray-100">
+                    <input type="submit" value="" name="subscribe" class="w-full h-full">
+                    <svg class="w-full h-full absolute top-0 left-0" fill="none" stroke="currentColor"
+                         viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                    </svg>
+                </div>
 
             </div>
             <div id="mce-responses" class="clear foot">
@@ -72,8 +76,8 @@
         </div>
     </form>
 </div>
-
 <!--End mc_embed_signup-->
+
 <div class="grid md:flex justify-between text-gray-400 w-full">
     <div class="hover:text-gray-300 mt-2"><a href="mailto:hi@helpgenie.org">hi@helpgenie.org</a></div>
     <div class="hover:text-gray-300 mt-2"><a href="https://github.com/yserkez/helpgenie">Github</a></div>
