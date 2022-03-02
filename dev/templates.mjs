@@ -8,7 +8,7 @@ const filters = JSON.parse(
 export const solution =
     (o) => {
         return `
-            <li data-filter-by='${filters[o.filter]?.key}'>
+            <li data-filter-by='${filters[o.filter]?.key}' class="solution">
                 <a href="${o.href}" target="_blank" class="block hover:bg-gray-50">
                     <div class="px-4 py-4 sm:px-6">
                         <div class="grid items-center justify-between">
